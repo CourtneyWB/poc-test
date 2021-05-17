@@ -1,16 +1,18 @@
 import { BrowserRouter as Router,Switch,Route,Link, BrowserRouter } from 'react-router-dom';
 import classes from './MainHeader.css';
+import List from '../ListFolder/List'
+import Form from '../FormFolder/Form'
 
 
 export default function App() {
     return (
-        <BrowserRouter>
-      <Router>
+    
+      // <Router>
         <div>
           <nav>
             <ul>
               <li>
-                <Link to="/List">List</Link>
+                <Link style={{color:'#333'}}to="/List">List</Link>
               </li>
               <li>
                 <Link to="/Form">Form</Link>
@@ -19,28 +21,20 @@ export default function App() {
             </ul>
           </nav>
   
-          <Switch>
+          {/* <Switch>
             <Route path="/List">
               <List />
             </Route>
             <Route path="/Form">
               <Form />
             </Route>
-          </Switch>
+          </Switch> */}
         </div>
-      </Router>
-      </BrowserRouter>
+      // </Router>
+   
     );
   }
-  
-  function List() {
-    return <h2>List</h2>;
-  }
-  
-  function Form() {
-    return <h2>Form</h2>;
-  
-  }
+
   
 
 // const MainHeader = () => {

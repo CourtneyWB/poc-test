@@ -1,21 +1,32 @@
 import React from "react";
 import './App.css';
-import { Route } from 'react-router-dom';
-import  { List }  from './List';
-import  *  as Form from './Form';
-import MainHeader from './MainHeader';
+import  List  from './ListFolder/List';
+import Form from './FormFolder/Form';
+import MainHeader from './MainHeaderFolder/MainHeader';
+import { BrowserRouter as Router,Switch,Route,Link, BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
-      <MainHeader/>
-      <Route path='./List'>
-      <List/>
-      </Route>
-      <Route path='./Form'>
-      <Form/>
-      </Route>
+
+<Router>
+        <div>
+          <nav>
+               <p>Test Application     <Link style={{color:'#000000'}} to="/List">List</Link>      <Link style={{color:'#000000'}}to="/Form">Form</Link></p> 
+          </nav>
+  
+          <Switch>
+            <Route path="/List">
+              <List />
+            </Route>
+            <Route path="/Form">
+              <Form />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+      {/* <MainHeader/> */}
       </div>
   );
 }

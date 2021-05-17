@@ -1,15 +1,15 @@
+
 export const listData = [
-    
+
   {
-      
     firstName:"Full ",
     lastName:"Name",
     favouriteColor:"Favourite Color",
     number:"Phone Number",
     status:"Active",
     __typename:"User"
-    },{
-      
+    },
+    {
       firstName:"Aaron",
       lastName:"O'Kon",
       favouriteColor:"#a5c700",
@@ -88,6 +88,5 @@ export const listData = [
        number:"+27713612275",
        status:"active",
        __typename:"User"
-      },
-      
+      }
   ];

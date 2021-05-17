@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #ffffff;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #070707;
+  }
+  .mymodal {
+    width:90px;
+    max-width: 100%;
+    height:90px;
+    max-height:50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+  }
+
+  .modal-dialog {
+    display: inline-block;
+    width: auto;
+}
+  
+  .myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 10;
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  .Form.Group{
+    width: 60em;  height: 2em;
+  }
