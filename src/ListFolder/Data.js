@@ -1,0 +1,93 @@
+export const listData = [
+    
+  {
+      
+    firstName:"Full ",
+    lastName:"Name",
+    favouriteColor:"Favourite Color",
+    number:"Phone Number",
+    status:"Active",
+    __typename:"User"
+    },{
+      
+      firstName:"Aaron",
+      lastName:"O'Kon",
+      favouriteColor:"#a5c700",
+      number:"+27714390351",
+      status:"inactive",
+      __typename:"User"
+      },
+      {
+        firstName:"Nora",
+        lastName:"Tremblay",
+        favouriteColor:"#7b6500",
+        number:"+27719065173",
+        status:"inactive",
+        __typename:"User"
+      },
+      {
+        firstName:"Magdalena",
+        lastName:"Mann",
+        favouriteColor:"#003bad",
+        number:"+27715474208",
+        status:"inactive",
+        __typename:"User"
+      },
+      {
+        firstName:"Cary",
+       lastName:"Kihn",
+       favouriteColor:"#03b000",
+       number:"+27717623449",
+       status:"active",
+       __typename:"User"
+      },
+      {
+        firstName:"Providenci",
+       lastName:"Beier",
+       favouriteColor:"#9ecd00",
+       number:"+27710315591",
+       status:"active",
+       __typename:"User"
+      },
+      {
+        firstName:"Taryn",
+       lastName:"Kohler",
+       favouriteColor:"#d00032",
+       number:"+27716818420",
+       status:"inactive",
+       __typename:"User"
+      },
+      {
+        firstName:"Giovanna",
+       lastName:"Dietrich",
+       favouriteColor:"#e700c3",
+       number:"+27717270283",
+       status:"inactive",
+       __typename:"User"
+      },
+      {
+        firstName:"Breana",
+        lastName:"Gottlieb",
+        favouriteColor:"#00bd27",
+        number:"+27718414079",
+        status:"active",
+        __typename:"User"
+      },
+      {
+        firstName:"Sadye",
+       lastName:"Bashirian",
+       favouriteColor:"#7bca00",
+       number:"+27719585526",
+       status:"active",
+       __typename:"User"
+      },
+      {
+        firstName:"Leone",
+       lastName:"Cartwright",
+       favouriteColor:"#001686",
+       number:"+27713612275",
+       status:"active",
+       __typename:"User"
+      },
+      
+  ];
